@@ -54,7 +54,7 @@ void Print()
 
 int main()
 {
-    cout << "\nPerforming some stack operations..." << endl;
+    cout << "Performing some stack operations..." << endl;
     Push(2); Print();
     Push(3); Print();
     Push(5); Print();
