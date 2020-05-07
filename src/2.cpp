@@ -87,12 +87,20 @@ int main()
 
     Pop(); Print();
     Pop(); Print();
-    cout << "\nEmpty stack (1: Empty, 0: Not empty)? " << IsEmpty() << endl;
+
+    if(IsEmpty())
+        cout << "\nEmpty stack!" << endl;
+    else
+        cout << "\nStack NOT empty yet!" << endl;
 
     Pop(); Print();
     Pop(); Print();
     cout << "\nTop element: " << Top() << endl;
 
     Pop(); Print();
-    cout << "\nEmpty stack (0: Empty, 1: Not empty)? " << IsEmpty() << endl;
+
+    if(IsEmpty())
+        cout << "\nEmpty stack!" << endl;
+    else
+        cout << "\nStack NOT empty yet!" << endl;
 }
